@@ -1,4 +1,17 @@
-# Benders Decomposition Capacity Planning
+# Benders Decomposition Methods
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`logic-based-benders-production-scheduling-python`](projects/logic-based-benders-production-scheduling-python/)
+- [`reinforcement-learning-benders-decomposition`](projects/reinforcement-learning-benders-decomposition/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 A reproducible Operations Research case study of **multi-cut Benders decomposition** for a two-stage stochastic capacity-planning problem. The project separates mixed-integer first-stage facility/capacity decisions from linear scenario recourse problems, generates optimality cuts from LP sensitivity information, and verifies the result against the full deterministic-equivalent MILP.
 
